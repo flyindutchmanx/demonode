@@ -5,7 +5,7 @@ const process = require ('process');
 const app = express();                              //Createing a new instance of an express application
 
 const client = redis.createClient ({
-    host: 'redis-server',
+    host: '127.0.0.1',
     port: 6379
 });                                                 //Setuping cooncetion to our redis server (container)
 
